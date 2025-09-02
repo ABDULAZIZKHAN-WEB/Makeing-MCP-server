@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "address": "123 Maple Street, Springfield",
+        "phone": "+1-555-1234"
+    },
+    {
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "address": "456 Oak Avenue, Metropolis",
+        "phone": "+1-555-5678"
+    },
+    {
+        "name": "Carol Lee",
+        "email": "carol.lee@example.com",
+        "address": "789 Pine Road, Gotham",
+        "phone": "+1-555-9012"
+    }
+]

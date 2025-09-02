@@ -1,0 +1,30 @@
+{
+  "name": "makeing-mcp-server",
+  "version": "1.0.0",
+  "description": "It help you to chat with user.",
+  "homepage": "https://github.com/ABDULAZIZKHAN-WEB/Makeing-MCP-server#readme",
+  "bugs": {
+    "url": "https://github.com/ABDULAZIZKHAN-WEB/Makeing-MCP-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABDULAZIZKHAN-WEB/Makeing-MCP-server.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "server": "tsx src/server.ts",
+  "server:dev": "tsx src/server.ts",
+  "server:inspect": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run server:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.5"
+  }
+}
